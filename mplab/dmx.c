@@ -98,9 +98,6 @@ void handleDMX()  {
     // bringt Nüscht
     //
     // Doch hein Issue in der Datenaufbereitung?
-
-        
-
       }
 
 
@@ -113,21 +110,5 @@ void handleDMX()  {
          dmxState = DMX_NOTSYNCED;
 
    }
-
-
-
 }
 
-
-
-void setDMXNotSynced(void)  {
-
-     SPEN = 0;
-     dmxState = DMX_NOTSYNCED;
-     currentAdress = 0;
-     CREN = 0;
-     OERR = 0;
-     RCIF = 0;
-     SPEN = 1;
-
-}

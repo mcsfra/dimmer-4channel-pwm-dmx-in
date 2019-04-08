@@ -3,26 +3,28 @@
 [d edition pro ]
 [d chip 18F14K22 ]
 [d frameptr 4065 ]
-"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+"62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\float.c
 [v ___ftpack __ftpack `(f  1 e 3 0 ]
-"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+"86 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftadd.c
 [v ___ftadd __ftadd `(f  1 e 3 0 ]
-"54 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+"54 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftdiv.c
 [v ___ftdiv __ftdiv `(f  1 e 3 0 ]
-"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+"62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftmul.c
 [v ___ftmul __ftmul `(f  1 e 3 0 ]
-"20 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftsub.c
+"19 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftsub.c
 [v ___ftsub __ftsub `(f  1 e 3 0 ]
-"10 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcadd.c
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 3 0 ]
 "245
 [v ___flsub __flsub `(d  1 e 3 0 ]
-"11 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcdiv.c
+"11 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcdiv.c
 [v ___fldiv __fldiv `(d  1 e 3 0 ]
-"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcmul.c
+"8 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcmul.c
 [v ___flmul __flmul `(d  1 e 3 0 ]
-"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
 "38 D:\GitHub\dimmer-4channel-pwm-dmx-in\mplab\channels.c
 [v _initChannels initChannels `(v  1 e 1 0 ]
 "68
@@ -47,33 +49,33 @@
 [v _initPwm initPwm `(v  1 e 1 0 ]
 "76
 [v _pwmStep pwmStep `(v  1 e 1 0 ]
-"183 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic18f14k22.h
+"185 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f14k22.h
 [v _CM2CON0 CM2CON0 `VEuc  1 e 1 @3947 ]
-"315
+"317
 [v _CM1CON0 CM1CON0 `VEuc  1 e 1 @3949 ]
-"767
+"769
 [v _ANSEL ANSEL `VEuc  1 e 1 @3966 ]
-"887
+"889
 [v _ANSELH ANSELH `VEuc  1 e 1 @3967 ]
-"959
+"961
 [v _PORTA PORTA `VEuc  1 e 1 @3968 ]
-"1193
+"1195
 [v _PORTB PORTB `VEuc  1 e 1 @3969 ]
-"1301
+"1303
 [v _PORTC PORTC `VEuc  1 e 1 @3970 ]
-"1540
+"1542
 [v _LATA LATA `VEuc  1 e 1 @3977 ]
-"1618
+"1620
 [v _LATB LATB `VEuc  1 e 1 @3978 ]
-"1684
+"1686
 [v _LATC LATC `VEuc  1 e 1 @3979 ]
-"1796
+"1798
 [v _TRISA TRISA `VEuc  1 e 1 @3986 ]
-"1950
+"1952
 [v _TRISB TRISB `VEuc  1 e 1 @3987 ]
-"2080
+"2082
 [v _TRISC TRISC `VEuc  1 e 1 @3988 ]
-[s S442 . 1 `uc 1 TMR1IE 1 0 :1:0 
+[s S604 . 1 `uc 1 TMR1IE 1 0 :1:0 
 `uc 1 TMR2IE 1 0 :1:1 
 `uc 1 CCP1IE 1 0 :1:2 
 `uc 1 SSPIE 1 0 :1:3 
@@ -81,14 +83,14 @@
 `uc 1 RCIE 1 0 :1:5 
 `uc 1 ADIE 1 0 :1:6 
 ]
-"2393
-[s S450 . 1 `uc 1 . 1 0 :4:0 
+"2395
+[s S612 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 TX1IE 1 0 :1:4 
 `uc 1 RC1IE 1 0 :1:5 
 ]
-[u S454 . 1 `S442 1 . 1 0 `S450 1 . 1 0 ]
-[v _PIE1bits PIE1bits `VES454  1 e 1 @3997 ]
-[s S81 . 1 `uc 1 TMR1IF 1 0 :1:0 
+[u S616 . 1 `S604 1 . 1 0 `S612 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES616  1 e 1 @3997 ]
+[s S84 . 1 `uc 1 TMR1IF 1 0 :1:0 
 `uc 1 TMR2IF 1 0 :1:1 
 `uc 1 CCP1IF 1 0 :1:2 
 `uc 1 SSPIF 1 0 :1:3 
@@ -96,14 +98,14 @@
 `uc 1 RCIF 1 0 :1:5 
 `uc 1 ADIF 1 0 :1:6 
 ]
-"2464
-[s S89 . 1 `uc 1 . 1 0 :4:0 
+"2466
+[s S92 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 TX1IF 1 0 :1:4 
 `uc 1 RC1IF 1 0 :1:5 
 ]
-[u S93 . 1 `S81 1 . 1 0 `S89 1 . 1 0 ]
-[v _PIR1bits PIR1bits `VES93  1 e 1 @3998 ]
-[s S470 . 1 `uc 1 TMR1IP 1 0 :1:0 
+[u S96 . 1 `S84 1 . 1 0 `S92 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES96  1 e 1 @3998 ]
+[s S632 . 1 `uc 1 TMR1IP 1 0 :1:0 
 `uc 1 TMR2IP 1 0 :1:1 
 `uc 1 CCP1IP 1 0 :1:2 
 `uc 1 SSPIP 1 0 :1:3 
@@ -111,14 +113,14 @@
 `uc 1 RCIP 1 0 :1:5 
 `uc 1 ADIP 1 0 :1:6 
 ]
-"2535
-[s S478 . 1 `uc 1 . 1 0 :4:0 
+"2537
+[s S640 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 TX1IP 1 0 :1:4 
 `uc 1 RC1IP 1 0 :1:5 
 ]
-[u S482 . 1 `S470 1 . 1 0 `S478 1 . 1 0 ]
-[v _IPR1bits IPR1bits `VES482  1 e 1 @3999 ]
-[s S388 . 1 `uc 1 RX9D 1 0 :1:0 
+[u S644 . 1 `S632 1 . 1 0 `S640 1 . 1 0 ]
+[v _IPR1bits IPR1bits `VES644  1 e 1 @3999 ]
+[s S550 . 1 `uc 1 RX9D 1 0 :1:0 
 `uc 1 OERR 1 0 :1:1 
 `uc 1 FERR 1 0 :1:2 
 `uc 1 ADDEN 1 0 :1:3 
@@ -127,32 +129,30 @@
 `uc 1 RX9 1 0 :1:6 
 `uc 1 SPEN 1 0 :1:7 
 ]
-"3050
-[s S397 . 1 `uc 1 . 1 0 :3:0 
+"3052
+[s S559 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 ADEN 1 0 :1:3 
 ]
-[s S400 . 1 `uc 1 . 1 0 :5:0 
+[s S562 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 SRENA 1 0 :1:5 
 ]
-[s S403 . 1 `uc 1 . 1 0 :6:0 
+[s S565 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RC8_9 1 0 :1:6 
 ]
-[s S406 . 1 `uc 1 . 1 0 :6:0 
+[s S568 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RC9 1 0 :1:6 
 ]
-[s S409 . 1 `uc 1 RCD8 1 0 :1:0 
+[s S571 . 1 `uc 1 RCD8 1 0 :1:0 
 ]
-[u S411 . 1 `S388 1 . 1 0 `S397 1 . 1 0 `S400 1 . 1 0 `S403 1 . 1 0 `S406 1 . 1 0 `S409 1 . 1 0 ]
-[v _RCSTA1bits RCSTA1bits `VES411  1 e 1 @4011 ]
-"3381
-[v _TXREG1 TXREG1 `VEuc  1 e 1 @4013 ]
-"3388
+[u S573 . 1 `S550 1 . 1 0 `S559 1 . 1 0 `S562 1 . 1 0 `S565 1 . 1 0 `S568 1 . 1 0 `S571 1 . 1 0 ]
+[v _RCSTA1bits RCSTA1bits `VES573  1 e 1 @4011 ]
+"3390
 [v _RCREG RCREG `VEuc  1 e 1 @4014 ]
-"3405
+"3407
 [v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
-"3412
+"3414
 [v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
-[s S344 . 1 `uc 1 ABDEN 1 0 :1:0 
+[s S506 . 1 `uc 1 ABDEN 1 0 :1:0 
 `uc 1 WUE 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 BRG16 1 0 :1:3 
@@ -161,34 +161,34 @@
 `uc 1 RCIDL 1 0 :1:6 
 `uc 1 ABDOVF 1 0 :1:7 
 ]
-"3733
-[s S353 . 1 `uc 1 . 1 0 :4:0 
+"3735
+[s S515 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 SCKP 1 0 :1:4 
 ]
-[s S356 . 1 `uc 1 . 1 0 :5:0 
+[s S518 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 RXCKP 1 0 :1:5 
 ]
-[s S359 . 1 `uc 1 . 1 0 :1:0 
+[s S521 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 W4E 1 0 :1:1 
 ]
-[u S362 . 1 `S344 1 . 1 0 `S353 1 . 1 0 `S356 1 . 1 0 `S359 1 . 1 0 ]
-[v _BAUDCONbits BAUDCONbits `VES362  1 e 1 @4024 ]
-[s S156 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+[u S524 . 1 `S506 1 . 1 0 `S515 1 . 1 0 `S518 1 . 1 0 `S521 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES524  1 e 1 @4024 ]
+[s S159 . 1 `uc 1 NOT_BOR 1 0 :1:0 
 ]
-"5318
-[s S158 . 1 `uc 1 . 1 0 :1:0 
+"5320
+[s S161 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 NOT_POR 1 0 :1:1 
 ]
-[s S161 . 1 `uc 1 . 1 0 :2:0 
+[s S164 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 NOT_PD 1 0 :1:2 
 ]
-[s S164 . 1 `uc 1 . 1 0 :3:0 
+[s S167 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 NOT_TO 1 0 :1:3 
 ]
-[s S167 . 1 `uc 1 . 1 0 :4:0 
+[s S170 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 NOT_RI 1 0 :1:4 
 ]
-[s S170 . 1 `uc 1 nBOR 1 0 :1:0 
+[s S173 . 1 `uc 1 nBOR 1 0 :1:0 
 `uc 1 nPOR 1 0 :1:1 
 `uc 1 nPD 1 0 :1:2 
 `uc 1 nTO 1 0 :1:3 
@@ -197,24 +197,22 @@
 `uc 1 SBOREN 1 0 :1:6 
 `uc 1 IPEN 1 0 :1:7 
 ]
-[s S179 . 1 `uc 1 BOR 1 0 :1:0 
+[s S182 . 1 `uc 1 BOR 1 0 :1:0 
 `uc 1 POR 1 0 :1:1 
 `uc 1 PD 1 0 :1:2 
 `uc 1 TO 1 0 :1:3 
 `uc 1 RI 1 0 :1:4 
 ]
-[u S185 . 1 `S156 1 . 1 0 `S158 1 . 1 0 `S161 1 . 1 0 `S164 1 . 1 0 `S167 1 . 1 0 `S170 1 . 1 0 `S179 1 . 1 0 ]
-[v _RCONbits RCONbits `VES185  1 e 1 @4048 ]
-"5468
-[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
-[s S286 . 1 `uc 1 SCS 1 0 :2:0 
+[u S188 . 1 `S159 1 . 1 0 `S161 1 . 1 0 `S164 1 . 1 0 `S167 1 . 1 0 `S170 1 . 1 0 `S173 1 . 1 0 `S182 1 . 1 0 ]
+[v _RCONbits RCONbits `VES188  1 e 1 @4048 ]
+[s S287 . 1 `uc 1 SCS 1 0 :2:0 
 `uc 1 HFIOFS 1 0 :1:2 
 `uc 1 OSTS 1 0 :1:3 
 `uc 1 IRCF 1 0 :3:4 
 `uc 1 IDLEN 1 0 :1:7 
 ]
-"5491
-[s S292 . 1 `uc 1 SCS0 1 0 :1:0 
+"5493
+[s S293 . 1 `uc 1 SCS0 1 0 :1:0 
 `uc 1 SCS1 1 0 :1:1 
 `uc 1 FLTS 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -222,19 +220,19 @@
 `uc 1 IRCF1 1 0 :1:5 
 `uc 1 IRCF2 1 0 :1:6 
 ]
-[u S300 . 1 `S286 1 . 1 0 `S292 1 . 1 0 ]
-[v _OSCCONbits OSCCONbits `VES300  1 e 1 @4051 ]
-"5551
+[u S301 . 1 `S287 1 . 1 0 `S293 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES301  1 e 1 @4051 ]
+"5553
 [v _T0CON T0CON `VEuc  1 e 1 @4053 ]
-"5628
+"5630
 [v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
-"5635
+"5637
 [v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
-[s S602 . 1 `uc 1 . 1 0 :7:0 
+[s S377 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 NOT_RABPU 1 0 :1:7 
 ]
-"6026
-[s S605 . 1 `uc 1 RABIP 1 0 :1:0 
+"6028
+[s S380 . 1 `uc 1 RABIP 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 TMR0IP 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -243,19 +241,19 @@
 `uc 1 INTEDG0 1 0 :1:6 
 `uc 1 nRABPU 1 0 :1:7 
 ]
-[s S614 . 1 `uc 1 RBIP 1 0 :1:0 
+[s S389 . 1 `uc 1 RBIP 1 0 :1:0 
 `uc 1 . 1 0 :6:1 
 `uc 1 RABPU 1 0 :1:7 
 ]
-[s S618 . 1 `uc 1 . 1 0 :7:0 
+[s S393 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 NOT_RBPU 1 0 :1:7 
 ]
-[s S621 . 1 `uc 1 . 1 0 :7:0 
+[s S396 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 nRBPU 1 0 :1:7 
 ]
-[u S624 . 1 `S602 1 . 1 0 `S605 1 . 1 0 `S614 1 . 1 0 `S618 1 . 1 0 `S621 1 . 1 0 ]
-[v _INTCON2bits INTCON2bits `VES624  1 e 1 @4081 ]
-[s S21 . 1 `uc 1 RABIF 1 0 :1:0 
+[u S399 . 1 `S377 1 . 1 0 `S380 1 . 1 0 `S389 1 . 1 0 `S393 1 . 1 0 `S396 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES399  1 e 1 @4081 ]
+[s S24 . 1 `uc 1 RABIF 1 0 :1:0 
 `uc 1 INT0IF 1 0 :1:1 
 `uc 1 TMR0IF 1 0 :1:2 
 `uc 1 RABIE 1 0 :1:3 
@@ -264,8 +262,8 @@
 `uc 1 PEIE_GIEL 1 0 :1:6 
 `uc 1 GIE_GIEH 1 0 :1:7 
 ]
-"6122
-[s S30 . 1 `uc 1 RBIF 1 0 :1:0 
+"6124
+[s S33 . 1 `uc 1 RBIF 1 0 :1:0 
 `uc 1 INT0F 1 0 :1:1 
 `uc 1 T0IF 1 0 :1:2 
 `uc 1 RBIE 1 0 :1:3 
@@ -274,42 +272,38 @@
 `uc 1 PEIE 1 0 :1:6 
 `uc 1 GIE 1 0 :1:7 
 ]
-[s S39 . 1 `uc 1 . 1 0 :6:0 
+[s S42 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 GIEL 1 0 :1:6 
 `uc 1 GIEH 1 0 :1:7 
 ]
-[s S43 . 1 `uc 1 . 1 0 :6:0 
+[s S46 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 PIE 1 0 :1:6 
 ]
-[u S46 . 1 `S21 1 . 1 0 `S30 1 . 1 0 `S39 1 . 1 0 `S43 1 . 1 0 ]
-[v _INTCONbits INTCONbits `VES46  1 e 1 @4082 ]
-"6670
-[v _CREN CREN `VEb  1 e 0 @32092 ]
-"6758
+[u S49 . 1 `S24 1 . 1 0 `S33 1 . 1 0 `S42 1 . 1 0 `S46 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES49  1 e 1 @4082 ]
+"6928
 [v _FERR FERR `VEb  1 e 0 @32090 ]
-"7004
+"7297
 [v _OERR OERR `VEb  1 e 0 @32089 ]
-"7156
+"7525
 [v _RCIE RCIE `VEb  1 e 0 @31981 ]
-"7158
-[v _RCIF RCIF `VEb  1 e 0 @31989 ]
-"7234
+"7642
 [v _SPEN SPEN `VEb  1 e 0 @32095 ]
 "14 D:\GitHub\dimmer-4channel-pwm-dmx-in\mplab\channels.c
 [v _channelLevel channelLevel `[4]uc  1 e 4 0 ]
 "16
 [v _channelRank channelRank `[4]uc  1 s 4 channelRank ]
-[s S653 channelinfo 16 `uc 1 numInts 1 0 `[5]ui 1 timer 10 1 `[5]uc 1 bitmask 5 11 ]
+[s S428 channelinfo 16 `uc 1 numInts 1 0 `[5]ui 1 timer 10 1 `[5]uc 1 bitmask 5 11 ]
 "27
-[v _ci1 ci1 `S653  1 e 16 0 ]
+[v _ci1 ci1 `S428  1 e 16 0 ]
 "28
-[v _ci2 ci2 `S653  1 e 16 0 ]
+[v _ci2 ci2 `S428  1 e 16 0 ]
 "30
-[v _pCIRead pCIRead `*.39S653  1 e 2 0 ]
+[v _pCIRead pCIRead `*.39S428  1 e 2 0 ]
 "31
-[v _pCIWrite pCIWrite `*.39S653  1 e 2 0 ]
+[v _pCIWrite pCIWrite `*.39S428  1 e 2 0 ]
 "32
-[v _pCITmp pCITmp `*.39S653  1 e 2 0 ]
+[v _pCITmp pCITmp `*.39S428  1 e 2 0 ]
 "58
 [v _syncLock syncLock `VEuc  1 e 1 0 ]
 "59
@@ -360,15 +354,15 @@
 [v _initChannels initChannels `(v  1 e 1 0 ]
 {
 "40
-[v initChannels@i i `uc  1 a 1 0 ]
+[v initChannels@i i `uc  1 a 1 10 ]
 "52
 } 0
 "95
 [v _doRank doRank `(v  1 e 1 0 ]
 {
 "97
-[v doRank@i i `uc  1 a 1 3 ]
-[v doRank@j j `uc  1 a 1 2 ]
+[v doRank@i i `uc  1 a 1 13 ]
+[v doRank@j j `uc  1 a 1 12 ]
 "112
 } 0
 "128
@@ -392,7 +386,7 @@
 "60 D:\GitHub\dimmer-4channel-pwm-dmx-in\mplab\dmx.c
 [v _handleDMX handleDMX `(v  1 e 1 0 ]
 {
-"119
+"113
 } 0
 "14 D:\GitHub\dimmer-4channel-pwm-dmx-in\mplab\interrupts.c
 [v _high_isr high_isr `II(v  1 e 1 0 ]
