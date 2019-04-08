@@ -1,0 +1,14 @@
+_doRank: CODE, 1644 0 172
+_initChannels: CODE, 2072 0 92
+_main: CODE, 2230 0 54
+_initHardware: CODE, 2164 0 66
+_high_isr: CODE, 8 0 2064
+_pwmStep: CODE, 1816 0 144
+_swapBuffers: CODE, 2332 0 46
+__initialization: CODE, 2284 0 42
+_calculateTimerDiffsAndMask: CODE, 176 0 1258
+_handleDMX: CODE, 1434 0 210
+_initPwm: CODE, 2412 0 18
+_initDMX: CODE, 2378 0 34
+_low_isr: CODE, 24 0 148
+Total: 4348
