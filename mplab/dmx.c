@@ -90,9 +90,11 @@ void handleDMX()  {
               dummy = LATA;  // zum Setzen des Breakdowns
 
           }
-
+#ifdef RELAISMODE
+          channelLevel[currentAdress-BASEADDRESS] = (received < 64 ? 0xFA : 0x00);
+#else
           channelLevel[currentAdress-BASEADDRESS] = received;
-
+#endif
     // An Interruptüberholern scheint das blitzen am anfang nicht zu liegen. 
     // sowohl die frequenzverringerung als auch die diskriminierung des niedrigen bereichs
     // bringt Nüscht

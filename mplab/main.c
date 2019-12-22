@@ -1,8 +1,5 @@
 #include <xc.h>        /* XC8 General Include File */
 
-//#include <stdint.h>        /* For uint8_t definition */
-//#include <stdbool.h>       /* For true/false definition */
-
 #include "hardware.h"
 
 #include "pwm.h"
@@ -10,34 +7,19 @@
 #include "SETUP.h"
 #include "channels.h"
 
-
 /*
  * Version 1.1 - Live November 2015
- * 
  */
-
 
 volatile unsigned char lastInChainReceived = 0;
 
 unsigned char counterForSimulator = 0;
 
-
-/*
- *
- */
-
-
 unsigned char errorCounter = 0;
-
 
 extern unsigned char channelLevel[MAXCHANNELS];
 
-void main(void)
-{
-
- 
-
-  
+void main(void)  {
 
     initHardware();
     initPwm();
@@ -49,9 +31,6 @@ void main(void)
 
 // wiedeer reinnehmen wenn tests rum!
     INTCONbits.GIEH = 1;
- //   INTCONbits.GIEL = 1; Brauch ich nicht.
-
-
 
 /*
     channelLevel[0] = 0;
@@ -76,11 +55,6 @@ void main(void)
     for(;;)
        ;
   */
-
-   
-
-
-   
 
     for (;;)  {
 
@@ -108,6 +82,5 @@ void main(void)
             lastInChainReceived = 0;
         }
     }
-
 
 }
